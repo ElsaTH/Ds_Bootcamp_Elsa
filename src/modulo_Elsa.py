@@ -40,8 +40,28 @@ Accedemos a la ruta de fichero raiz
 
 __get_root_project(number_of_descent=4)     # El 4 es la cantidad de carpetas que tiene que subir
 
+def dollarizer_(x):
+    """
+    Quitar de una columna el primer string, en este caso dolar
+    """
+    return float(x[1:])
+     # (lambda x: float(str(x)[1:]) 
 
+def capitalizer():
+    """
+    Convierta cadenas en la Serie / Índice para capitalizar.
+    s = "strings"
+    """
+    return x.capitalize()
+    # lambda x: x.capitalize()
 
+def multiply(x):
+    """
+    Multiplica todos los números de un dataset x10
+    """
+    if type(x) is int or type(x) is float:
+        return x*10
+    return x    
 
 def gender_to_numeric(x):
     """
