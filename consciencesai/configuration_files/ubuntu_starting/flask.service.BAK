@@ -1,0 +1,11 @@
+[Unit]
+Description=Flask web server
+[Install]
+WantedBy=multi-user.target
+[Service]
+User=consciencesai
+PermissionsStartOnly=true
+ExecStart=/usr/bin/python3 /home/consciencesai/Desktop/data_science/projects_source/www_redirect_flask_python/main.py
+TimeoutSec=1100
+Restart=on-failure
+RuntimeDirectoryMode=755
