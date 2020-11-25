@@ -2,3 +2,4 @@ README.md
 .DS Store
 _pyvsvhr_
 p.tsv
+.gitignore

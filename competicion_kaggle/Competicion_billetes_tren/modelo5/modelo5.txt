@@ -1,0 +1,28 @@
+TODAS LAS COLUMNAS
+fillna
+labelEncoder
+
+best estimator: XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+             colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+             importance_type='gain', interaction_constraints='',
+             learning_rate=0.300000012, max_delta_step=0, max_depth=8,
+             min_child_weight=1, missing=nan, monotone_constraints='()',
+             n_estimators=100, n_jobs=-4, num_parallel_tree=1, random_state=0,
+             reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+             tree_method='exact', validate_parameters=1, verbosity=None)
+
+############################
+
+clf.best_params_ {'classifier': XGBRegressor(base_score=None, booster=None, colsample_bylevel=None,
+             colsample_bynode=None, colsample_bytree=None, gamma=None,
+             gpu_id=None, importance_type='gain', interaction_constraints=None,
+             learning_rate=None, max_delta_step=0, max_depth=8,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=-4, num_parallel_tree=None,
+             random_state=None, reg_alpha=None, reg_lambda=None,
+             scale_pos_weight=None, subsample=1, tree_method=None,
+             validate_parameters=None, verbosity=None), 'classifier__max_delta_step': 0, 'classifier__max_depth': 8, 'classifier__subsample': 1}
+
+############################
+
+clf.best_score 0.9998544100103043
